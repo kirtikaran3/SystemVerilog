@@ -1,0 +1,60 @@
+class parent;  
+  
+  logic [3:0] a;
+  
+endclass 
+
+class child extends parent; 
+  
+  logic [3:0] b; 
+  logic [3:0] x;
+  
+  task automatic ops; 
+    
+    x = b + a;  
+    
+  endtask 
+  
+  function automatic logic [3:0] ret; 
+    
+    return x;
+    
+  endfunction
+  
+endclass 
+
+module inheritMod(in1,in2,out);
+
+  input [3:0] in1,in2; 
+  output [3:0] out; 
+  reg [3:0] out; 
+  
+  child c1 = new(); 
+  
+  initial begin 
+    #1    
+    c1.a=in1; 
+    c1.b=in2;
+    c1.ops(); 
+    out = c1.ret();
+    $display($time," The op is %b",out);
+    
+  end
+
+endmodule 
+
+module inhertTb; 
+
+  reg [3:0] in1,in2; 
+  wire [3:0] out; 
+  
+  inheritMod im(.in1(in1),.in2(in2),.out(out));
+
+  initial begin 
+  
+      in1 = 5; 
+      in2 = 7;  
+    
+  end
+
+endmodule

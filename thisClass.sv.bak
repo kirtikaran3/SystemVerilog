@@ -1,0 +1,47 @@
+class construct;  
+  
+  
+  function automatic [3:0] test(logic [3:0]a,b); 
+    
+    $display($time," the variable are %b and %b ",a,b);
+    return a+b;
+    
+  endfunction
+  
+  
+endclass 
+
+module constClass(in1,in2,out); 
+  
+  input [3:0] in1,in2; 
+  output [3:0] out; 
+  logic [3:0] out; 
+  
+  initial begin
+  #5
+  construct cc = new(in1,in2);
+  out=cc.test();
+  $display($time," The addition is %b",out);
+  end
+  
+endmodule 
+
+
+module constClassTB; 
+
+    reg [3:0] in1,in2; 
+    wire [3:0] out; 
+    
+    constClass cc(.in1(in1),.in2(in2),.out(out)); 
+
+    initial begin 
+    
+      in1=4; 
+      in2=5;
+    
+    end    
+
+endmodule  
+
+
+ 

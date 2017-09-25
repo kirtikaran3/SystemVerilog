@@ -1,0 +1,14 @@
+C:/Users/Kirti/Documents/System_Verilog/TestGround/work/packet.sv {2 {vlog -work work -vopt -sv C:/Users/Kirti/Documents/System_Verilog/TestGround/work/packet.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+** Warning: C:/Users/Kirti/Documents/System_Verilog/TestGround/work/packet.sv(33): (vlog-2181) Use of a parameterized class packet as a type creates a default specialization.
+
+-- Compiling package packet_sv_unit
+-- Compiling module paramTypemod
+** Warning: C:/Users/Kirti/Documents/System_Verilog/TestGround/work/packet.sv(33): (vlog-2181) Use of a parameterized class packet as a type creates a default specialization.
+
+-- Compiling module paramTypeTB
+
+Top level modules:
+	paramTypeTB
+
+} {} {}}

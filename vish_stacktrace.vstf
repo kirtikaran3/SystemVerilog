@@ -1,0 +1,177 @@
+# Current time Tue Aug 15 03:04:49 2017
+# QuestaSim Stack Trace
+# Program = vish
+# Id = "10.2c"
+# Version = "2013.07"
+# Date = "Jul 19 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 40357576. Traceback:
+# 0    0x40357576: 'Ucdb_Init + 0xc4566'
+# 1    0x01000000: '<unknown (@0x1000000)>'
+# 2    0x0000010b: '<unknown (@0x10b)>'
+# 3    0x0a019fd0: '<unknown (@0xa019fd0)>'
+# 4    0x4030e305: 'Ucdb_Init + 0x7b2f5'
+# 5    0x40357e8a: 'Ucdb_Init + 0xc4e7a'
+# 6    0x40357dfa: 'Ucdb_Init + 0xc4dea'
+# 7    0x40357f28: 'Ucdb_Init + 0xc4f18'
+# 8    0x0c482750: '<unknown (@0xc482750)>'
+# 9    0x0c4829f0: '<unknown (@0xc4829f0)>'
+# 10   0x0c7038a0: '<unknown (@0xc7038a0)>'
+# 11   0x0c0251e0: '<unknown (@0xc0251e0)>'
+# 12   0x0c4829f0: '<unknown (@0xc4829f0)>'
+# 13   0x4035520d: 'Ucdb_Init + 0xc21fd'
+# 14   0x403551ff: 'Ucdb_Init + 0xc21ef'
+# 15   0x40355316: 'Ucdb_Init + 0xc2306'
+# 16   0x4024fa62: 'Mtirpc_Init + 0x1678b2'
+# 17   0x1000faa8: 'TclInvokeStringCommand + 0xc8'
+# 18   0xffffffa8: '<unknown (@0xffffffa8)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Sun Aug 20 23:36:50 2017
+# QuestaSim Stack Trace
+# Program = vish
+# Id = "10.2c"
+# Version = "2013.07"
+# Date = "Jul 19 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 40357576. Traceback:
+# 0    0x40357576: 'Ucdb_Init + 0xc4566'
+# 1    0x03000000: '<unknown (@0x3000000)>'
+# 2    0x0000010b: '<unknown (@0x10b)>'
+# 3    0x0c5f8f90: '<unknown (@0xc5f8f90)>'
+# 4    0x4030e305: 'Ucdb_Init + 0x7b2f5'
+# 5    0x40357e8a: 'Ucdb_Init + 0xc4e7a'
+# 6    0x40357f28: 'Ucdb_Init + 0xc4f18'
+# 7    0x0c1de960: '<unknown (@0xc1de960)>'
+# 8    0x0642c0b0: '<unknown (@0x642c0b0)>'
+# 9    0x00000002: '<unknown (@0x2)>'
+# 10   0x64b2ed7b: 'stricmp + 0x43'
+# 11   0x403552f4: 'Ucdb_Init + 0xc22e4'
+# 12   0x4024fa62: 'Mtirpc_Init + 0x1678b2'
+# 13   0x1000faa8: 'TclInvokeStringCommand + 0xc8'
+# 14   0xffffffa8: '<unknown (@0xffffffa8)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Wed Aug 23 21:47:48 2017
+# QuestaSim Stack Trace
+# Program = vish
+# Id = "10.2c"
+# Version = "2013.07"
+# Date = "Jul 19 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 40357576. Traceback:
+# 0    0x40357576: 'Ucdb_Init + 0xc4566'
+# 1    0x01000000: '<unknown (@0x1000000)>'
+# 2    0x0000010b: '<unknown (@0x10b)>'
+# 3    0x0c20a6b0: '<unknown (@0xc20a6b0)>'
+# 4    0x4030e305: 'Ucdb_Init + 0x7b2f5'
+# 5    0x40357e8a: 'Ucdb_Init + 0xc4e7a'
+# 6    0x40357dfa: 'Ucdb_Init + 0xc4dea'
+# 7    0x40357f28: 'Ucdb_Init + 0xc4f18'
+# 8    0x0be2c070: '<unknown (@0xbe2c070)>'
+# 9    0x0be2c190: '<unknown (@0xbe2c190)>'
+# 10   0x0d4fa5b0: '<unknown (@0xd4fa5b0)>'
+# 11   0x086be740: '<unknown (@0x86be740)>'
+# 12   0x0be2c190: '<unknown (@0xbe2c190)>'
+# 13   0x4035520d: 'Ucdb_Init + 0xc21fd'
+# 14   0x403551ff: 'Ucdb_Init + 0xc21ef'
+# 15   0x40355316: 'Ucdb_Init + 0xc2306'
+# 16   0x4024fa62: 'Mtirpc_Init + 0x1678b2'
+# 17   0x1000faa8: 'TclInvokeStringCommand + 0xc8'
+# 18   0xffffffa8: '<unknown (@0xffffffa8)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Wed Aug 23 23:50:19 2017
+# QuestaSim Stack Trace
+# Program = vish
+# Id = "10.2c"
+# Version = "2013.07"
+# Date = "Jul 19 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 403541f1. Traceback:
+# 0    0x403541f1: 'Ucdb_Init + 0xc11e1'
+# 1    0x40354a57: 'Ucdb_Init + 0xc1a47'
+# 2    0x0acef300: '<unknown (@0xacef300)>'
+# 3    0xffffffff: '<unknown (@0xffffffff)>'
+# 4    0x0820e010: '<unknown (@0x820e010)>'
+# 5    0x000001f8: '<unknown (@0x1f8)>'
+# 6    0x0820e010: '<unknown (@0x820e010)>'
+# 7    0x403561bb: 'Ucdb_Init + 0xc31ab'
+# 8    0x0b561730: '<unknown (@0xb561730)>'
+# 9    0xffffffff: '<unknown (@0xffffffff)>'
+# 10   0x6bd9b23e: '<unknown (@0x6bd9b23e)>'
+# 11   0x0bfdf510: '<unknown (@0xbfdf510)>'
+# 12   0x0070006e: '<unknown (@0x70006e)>'
+# 13   0x0bcfb230: '<unknown (@0xbcfb230)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Sun Aug 27 01:28:29 2017
+# QuestaSim Stack Trace
+# Program = vish
+# Id = "10.2c"
+# Version = "2013.07"
+# Date = "Jul 19 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 40357576. Traceback:
+# 0    0x40357576: 'Ucdb_Init + 0xc4566'
+# 1    0x01000000: '<unknown (@0x1000000)>'
+# 2    0x0000010b: '<unknown (@0x10b)>'
+# 3    0x09effff0: '<unknown (@0x9effff0)>'
+# 4    0x4030e305: 'Ucdb_Init + 0x7b2f5'
+# 5    0x40357e8a: 'Ucdb_Init + 0xc4e7a'
+# 6    0x40357dfa: 'Ucdb_Init + 0xc4dea'
+# 7    0x40357f28: 'Ucdb_Init + 0xc4f18'
+# 8    0x0c4d5af0: '<unknown (@0xc4d5af0)>'
+# 9    0x0c4d5610: '<unknown (@0xc4d5610)>'
+# 10   0x0c176c70: '<unknown (@0xc176c70)>'
+# 11   0x0be654d0: '<unknown (@0xbe654d0)>'
+# 12   0x0c4d5610: '<unknown (@0xc4d5610)>'
+# 13   0x4035520d: 'Ucdb_Init + 0xc21fd'
+# 14   0x403551ff: 'Ucdb_Init + 0xc21ef'
+# 15   0x40355316: 'Ucdb_Init + 0xc2306'
+# 16   0x4024fa62: 'Mtirpc_Init + 0x1678b2'
+# 17   0x1000faa8: 'TclInvokeStringCommand + 0xc8'
+# 18   0xffffffa8: '<unknown (@0xffffffa8)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Sun Aug 27 01:42:20 2017
+# QuestaSim Stack Trace
+# Program = vish
+# Id = "10.2c"
+# Version = "2013.07"
+# Date = "Jul 19 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 40357576. Traceback:
+# 0    0x40357576: 'Ucdb_Init + 0xc4566'
+# 1    0x01000000: '<unknown (@0x1000000)>'
+# 2    0x0000010b: '<unknown (@0x10b)>'
+# 3    0x0c87b240: '<unknown (@0xc87b240)>'
+# 4    0x4030e305: 'Ucdb_Init + 0x7b2f5'
+# 5    0x40357e8a: 'Ucdb_Init + 0xc4e7a'
+# 6    0x40357dfa: 'Ucdb_Init + 0xc4dea'
+# 7    0x40357f28: 'Ucdb_Init + 0xc4f18'
+# 8    0x0c62fad0: '<unknown (@0xc62fad0)>'
+# 9    0x0c63b9b0: '<unknown (@0xc63b9b0)>'
+# 10   0x09f1f230: '<unknown (@0x9f1f230)>'
+# 11   0x09d26ff0: '<unknown (@0x9d26ff0)>'
+# 12   0x0c63b9b0: '<unknown (@0xc63b9b0)>'
+# 13   0x4035520d: 'Ucdb_Init + 0xc21fd'
+# 14   0x403551ff: 'Ucdb_Init + 0xc21ef'
+# 15   0x40355316: 'Ucdb_Init + 0xc2306'
+# 16   0x4024fa62: 'Mtirpc_Init + 0x1678b2'
+# 17   0x1000faa8: 'TclInvokeStringCommand + 0xc8'
+# 18   0xffffffa8: '<unknown (@0xffffffa8)>'
+StackWalk failed 487
+# End of Stack Trace
+

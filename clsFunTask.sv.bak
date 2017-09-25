@@ -1,0 +1,50 @@
+class testing; 
+  
+  logic [3:0] x;
+  
+  task set(logic[3:0] in); 
+    
+     $display($time," : The value get set is %b: ",in);
+      x = in;
+    
+  endtask 
+  
+  function logic[3:0] get(); 
+    
+      $display($time," The value that get returned is %b ",x);
+      return x;
+    
+  endfunction
+  
+  
+endclass 
+
+module passfun(in);  
+  
+  input [3:0] in;  
+  #5;
+  testing t=new(); 
+  
+  initial begin 
+    
+    t.set(in); 
+    t.get();
+    
+  end
+  
+endmodule 
+
+module passfuntb; 
+
+    reg[3:0] in; 
+    passfun pf(.in(in)); 
+    
+    initial begin 
+    
+       #2  in = 2; 
+               
+    end
+  
+endmodule 
+
+

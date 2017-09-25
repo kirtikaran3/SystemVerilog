@@ -1,0 +1,8 @@
+C:/Users/Kirti/Documents/System_Verilog/TestGround/work/arrayMethod.sv {1 {vlog -work work -vopt -sv C:/Users/Kirti/Documents/System_Verilog/TestGround/work/arrayMethod.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+
+} {} {}} C:/Users/Kirti/Documents/System_Verilog/TestGround/arrayMethods.sv {0 {vlog -work work -vopt -sv C:/Users/Kirti/Documents/System_Verilog/TestGround/arrayMethods.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+** Error: C:/Users/Kirti/Documents/System_Verilog/TestGround/arrayMethods.sv(2): near "EOF": syntax error, unexpected end of source code, expecting IDENTIFIER or TYPE_IDENTIFIER
+
+} {3.0 4.0} {}}

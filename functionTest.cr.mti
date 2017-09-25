@@ -1,0 +1,9 @@
+C:/questasim64_10.2c/examples/FunctionTest.sv {1 {vlog -work work -vopt -sv C:/questasim64_10.2c/examples/FunctionTest.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module functionTest
+-- Compiling module functionTestTB
+
+Top level modules:
+	functionTestTB
+
+} {} {}}

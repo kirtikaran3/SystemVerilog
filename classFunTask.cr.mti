@@ -1,0 +1,12 @@
+C:/questasim64_10.2c/examples/clsFunTask.sv {2 {vlog -work work -vopt -sv {C:\questasim64_10.2c\examples\clsFunTask.sv}
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling package clsFunTask_sv_unit
+-- Compiling module passfun
+** Warning: C:\questasim64_10.2c\examples\clsFunTask.sv(31): (vlog-2240) Treating stand-alone use of function 'get' as an implicit VOID cast.
+
+-- Compiling module passfuntb
+
+Top level modules:
+	passfuntb
+
+} {} {}}

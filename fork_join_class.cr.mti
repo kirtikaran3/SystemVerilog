@@ -1,0 +1,12 @@
+C:/questasim64_10.2c/examples/fork_join_class.sv {2 {vlog -work work -vopt -sv C:/questasim64_10.2c/examples/fork_join_class.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling package fork_join_class_sv_unit
+-- Compiling module fork_joinClass
+** Warning: C:/questasim64_10.2c/examples/fork_join_class.sv(56): (vlog-2240) Treating stand-alone use of function 'function_thread' as an implicit VOID cast.
+
+-- Compiling module fork_joinClassTB
+
+Top level modules:
+	fork_joinClassTB
+
+} {} {}}

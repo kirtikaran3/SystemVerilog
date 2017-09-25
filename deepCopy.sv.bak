@@ -1,0 +1,70 @@
+class packet;  
+  
+  logic [3:0] a,b,x;
+  
+  function assVal(logic [3:0] a,b); 
+    
+    this.a = a; 
+    this.b = b;
+    
+  endfunction  
+  
+  task automatic ops; 
+    
+    x = a+b;
+    
+  endtask 
+   
+  function automatic logic[3:0] ret(); 
+  
+      return x;
+  
+  endfunction 
+  
+  function packet copy; 
+  
+    copy = new(); 
+    copy.a = this.a; 
+    copy.b = this.b; 
+    return copy;
+  
+  endfunction 
+  
+endclass 
+
+module deepCopy(in1,in2,out); 
+  
+  input [3:0] in1,in2; 
+  output [3:0] out; 
+  reg [3:0] out;  
+  
+  packet p1,p2; 
+  
+  initial begin 
+    #3
+    p1=new();  
+    p1.assVal(in1,in2);
+    p1.ops(); 
+    out = p1.ret(); 
+    $display($time," The p1 o/p is %b",out);
+    
+    #3
+    p2=p1.copy(); 
+    p2.assVal(1,5);
+    p2.ops(); 
+    out = p2.ret(); 
+    $display($time," The p2 o/p is %b",out);
+    
+  end
+  
+  
+endmodule 
+
+module deepCopyTB; 
+  
+  reg [3:0] in1,in2; 
+  wire [3:0] out; 
+  
+  deepCopy dc(.in1(in1),.in2(in2),.out(out));
+  
+endmodule

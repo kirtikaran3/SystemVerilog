@@ -1,0 +1,12 @@
+C:/questasim64_10.2c/examples/classTest.sv {2 {vlog -work work -vopt -sv C:/questasim64_10.2c/examples/classTest.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling package classTest_sv_unit
+-- Compiling module classTest
+** Warning: C:/questasim64_10.2c/examples/classTest.sv(27): (vlog-2240) Treating stand-alone use of function 'addFun' as an implicit VOID cast.
+
+-- Compiling module classTestTB
+
+Top level modules:
+	classTestTB
+
+} {} {}}

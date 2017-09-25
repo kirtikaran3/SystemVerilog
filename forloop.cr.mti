@@ -1,0 +1,9 @@
+C:/Users/Kirti/Documents/System_Verilog/TestGround/work/forloop.sv {1 {vlog -work work -vopt -sv C:/Users/Kirti/Documents/System_Verilog/TestGround/work/forloop.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module forloop
+-- Compiling module forTB
+
+Top level modules:
+	forTB
+
+} {} {}}

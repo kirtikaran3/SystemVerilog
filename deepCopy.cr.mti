@@ -1,0 +1,14 @@
+C:/Users/Kirti/Documents/System_Verilog/TestGround/work/deepCopy.sv {2 {vlog -work work -vopt -sv C:/Users/Kirti/Documents/System_Verilog/TestGround/work/deepCopy.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling package deepCopy_sv_unit
+-- Compiling module deepCopy
+** Warning: C:/Users/Kirti/Documents/System_Verilog/TestGround/work/deepCopy.sv(46): (vlog-2240) Treating stand-alone use of function 'assVal' as an implicit VOID cast.
+
+** Warning: C:/Users/Kirti/Documents/System_Verilog/TestGround/work/deepCopy.sv(53): (vlog-2240) Treating stand-alone use of function 'assVal' as an implicit VOID cast.
+
+-- Compiling module deepCopyTB
+
+Top level modules:
+	deepCopyTB
+
+} {} {}}

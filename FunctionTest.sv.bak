@@ -1,0 +1,58 @@
+module functionTest(in1,in2,out,clk); 
+  
+  input [3:0] in1,in2;  
+  input clk;
+  output [3:0] out;    
+  logic [3:0] out;
+  
+  function automatic [3:0] addFun; 
+    
+    input [3:0] a,b; 
+    a=in1; 
+    b=in2; 
+    
+    addFun=a+b; 
+    $display($time," the output is: %b ",addFun);
+  //  return addFun;
+    
+  endfunction 
+  
+  always @(posedge clk) begin 
+    
+    #5 out=addFun(in1,in2); 
+    //we can also call it as expression ie; out = 20+addFun(in1,in2);
+    $display($time," the output is: %b ",out);
+  
+  end
+  
+  
+endmodule 
+
+module functionTestTB; 
+  
+    reg [3:0] in1,in2; 
+    reg clk; 
+    wire [3:0] out; 
+    
+    functionTest ft(.in1(in1),.in2(in2),.out(out),.clk(clk));  
+  
+    initial begin 
+      
+      clk=0;
+      
+      #2  {in1,in2}={4'h5,4'h7};        
+      #5  {in1,in2}={4'h7,4'h7}; 
+      #5  {in1,in2}={4'h8,4'h7};  
+      
+    end 
+    
+    always begin 
+      
+      #1 clk = ~clk;
+      
+    end
+  
+endmodule
+
+
+

@@ -1,0 +1,50 @@
+class stringTest; 
+
+logic [3:0] stringArr[string];
+
+    task automatic filling(logic [3:0] in);  
+      $display("Into the class");
+    
+        stringArr["First"]=1;  
+        
+        //stringArr.first(in); 
+        $display($time," The first element is %d",stringArr[in]);
+        
+        stringArr["Second"]=1+2;  
+        //stringArr.last(in); 
+        $display($time," The last element is %d",stringArr[in]);
+        
+    
+    endtask  
+  
+endclass 
+
+
+module stringMod(in); 
+  
+  input [3:0] in;  
+  stringTest st1=new;
+  initial begin 
+  
+    #5 $display($time, " The passed value is %d",in);
+     st1.filling(in); 
+  end
+  
+endmodule   
+
+module stringTb; 
+  
+      reg [3:0] in; 
+      
+      stringMod sm(.in(in)); 
+      
+      initial begin 
+  
+        #2 in=0;
+      
+     end      
+  
+  
+endmodule 
+
+
