@@ -1,3 +1,4 @@
+//constructor testing
 class construct;  
     logic [3:0] a,b;
     
