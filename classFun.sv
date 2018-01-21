@@ -1,3 +1,4 @@
+//example
 class classFun; 
   
    int q[$]={1,2};
