@@ -1,3 +1,4 @@
+//testing
 module dynArr(in,out); 
   
   input [2:0] in; 
