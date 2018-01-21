@@ -33,7 +33,7 @@ module arrFunTest(in);
   initial begin 
     
      
-   #5 ar.option(in);
+   #10 ar.option(in);
     
   end
   
